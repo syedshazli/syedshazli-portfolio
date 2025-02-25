@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Particles from "react-tsparticles";
-import Timeline from "./components/Timeline"; // Import the Timeline component
+import Timeline from "./components/Timeline";
+import Coursework from "./components/Coursework"; // Import the Coursework component
 import "./App.css";
 
 function App() {
@@ -62,7 +63,7 @@ function App() {
               <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
             <a
-              href="https://www.linkedin.com/in/syed-shazli/"
+              href="https://linkedin.com/in/syedshazli"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -91,6 +92,9 @@ function App() {
 
       {/* Timeline */}
       <Timeline />
+
+      {/* Coursework */}
+      <Coursework />
 
       {/* Projects */}
       <motion.section

@@ -1,0 +1,36 @@
+/* Coursework Section */
+#coursework {
+    padding: 100px 0;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+  }
+  
+  .coursework-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .coursework-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+  }
+  
+  .coursework-item h3 {
+    margin-top: 0;
+    color: #3498db;
+  }
+  
+  .coursework-item ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .coursework-item li {
+    margin-bottom: 10px;
+  }
