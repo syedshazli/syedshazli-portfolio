@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Particles from "react-tsparticles";
+import Timeline from "./components/Timeline"; // Import the Timeline component
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <div className={`App ${darkMode ? "dark-mode" : "light-mode"}`}>
       {/* Particles Background */}
       <Particles
+        id="tsparticles"
         options={{
           background: {
             color: {
@@ -60,7 +62,7 @@ function App() {
               <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
             <a
-              href="https://linkedin.com/in/syedshazli"
+              href="https://www.linkedin.com/in/syed-shazli/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -86,6 +88,9 @@ function App() {
           </p>
         </div>
       </motion.section>
+
+      {/* Timeline */}
+      <Timeline />
 
       {/* Projects */}
       <motion.section
