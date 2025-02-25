@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/syedshazli-portfolio/static/css/main.83ae20d8.css",
+    "main.js": "/syedshazli-portfolio/static/js/main.d1f4b531.js",
+    "static/js/453.8fc1c545.chunk.js": "/syedshazli-portfolio/static/js/453.8fc1c545.chunk.js",
+    "index.html": "/syedshazli-portfolio/index.html",
+    "main.83ae20d8.css.map": "/syedshazli-portfolio/static/css/main.83ae20d8.css.map",
+    "main.d1f4b531.js.map": "/syedshazli-portfolio/static/js/main.d1f4b531.js.map",
+    "453.8fc1c545.chunk.js.map": "/syedshazli-portfolio/static/js/453.8fc1c545.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83ae20d8.css",
+    "static/js/main.d1f4b531.js"
+  ]
+}
